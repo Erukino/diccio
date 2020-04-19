@@ -96,7 +96,7 @@ def dicci():
   bann()
   print ("Creando diccionario porfavor espere\n")
   print ("podria tardar un tiempo ...\n")
-  for x in range(fin+1):
+  for x in range(x,(fin+1)):
       f=str(x)
       d=f.zfill(y)
       dicc.writelines(str(d)+"\n")
